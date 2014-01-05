@@ -1,7 +1,6 @@
 #Countdown
 
-
-##Environment Setup
+### Notes
 
 Install PhoneGap
 Install NodeJS
@@ -9,7 +8,10 @@ Install JDK
 Install Android SDK
 Install Apache Ants
 Update Environment Variables
-	Path += %ANT_HOME%\bin\ant.bat;%ANT_HOME%\bin;%JAVA_HOME%\bin\java.exe;%ANDROID_HOME%\platform-tools;%ANDROID_HOME%\tools;
+	Path += %ANT_HOME%\bin\ant.bat;%ANT_HOME%\bin;
+			%JAVA_HOME%\bin\java.exe;
+			%ANDROID_HOME%\platform-tools;
+			%ANDROID_HOME%\tools;
 
 Launch the Android SDK Manager
 	Tools > AVD Manager
@@ -23,7 +25,7 @@ Launch the Android SDK Manager
 			Added Environment Variable
 				ANDROID_SDK_HOME=C:\Dev\adt-bundle\sdk
 
-Start Emulator
+2. Started Emulator
 
 	emulator: ERROR: Could not load OpenGLES emulation library: Could not load DLL!
 	emulator: WARNING: Could not initialize OpenglES emulation, using software renderer.
