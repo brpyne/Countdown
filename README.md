@@ -2,20 +2,23 @@
 
 ### Notes
 
-Install PhoneGap
-Install NodeJS
-Install JDK
-Install Android SDK
-Install Apache Ants
-Update Environment Variables
-	Path += %ANT_HOME%\bin\ant.bat;%ANT_HOME%\bin;
+* Installed PhoneGap
+* Installed NodeJS
+* Installed JDK
+* Installed Android SDK
+* Installed Apache Ants
+* Update Environment Variables
+	
+Path += %ANT_HOME%\bin\ant.bat;%ANT_HOME%\bin;
 			%JAVA_HOME%\bin\java.exe;
 			%ANDROID_HOME%\platform-tools;
 			%ANDROID_HOME%\tools;
 
-Launch the Android SDK Manager
+* Launch the Android SDK Manager
+
 	Tools > AVD Manager
 	Add First Device
+	
 		Device Created, Start results in "PANIC"
 			
 			This was due to a bug with ADT and the way my filesystem defaults to \\MI\DFS\Users\BPyne
@@ -25,7 +28,7 @@ Launch the Android SDK Manager
 			Added Environment Variable
 				ANDROID_SDK_HOME=C:\Dev\adt-bundle\sdk
 
-2. Started Emulator
+* Started Emulator
 
 	emulator: ERROR: Could not load OpenGLES emulation library: Could not load DLL!
 	emulator: WARNING: Could not initialize OpenglES emulation, using software renderer.
@@ -40,12 +43,13 @@ Launch the Android SDK Manager
 			libGLES_V2_translator.dll
 			libOpenglRender.dll
 
-Start Emulator
+* Started Emulator
 
-Run Command: 	npm install -g phonegap
-				phonegap create my-app
-				phonegap run android
+* Ran Commands:
+	npm install -g phonegap
+	phonegap create my-app
+	phonegap run android
 
 
-#PhoneGap Meets AngularJS
-- http://devgirl.org/2013/06/10/quick-start-guide-phonegap-and-angularjs/
+#PhoneGap and AngularJS
+* http://devgirl.org/2013/06/10/quick-start-guide-phonegap-and-angularjs/
