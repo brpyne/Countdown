@@ -50,6 +50,7 @@ Path += %ANT_HOME%\bin\ant.bat;%ANT_HOME%\bin;
 	phonegap create my-app
 	phonegap run android
 
+* Started Tutorial - http://projectpoppycock.com/angularjs-phonegap-and-angular-seed-lets-go/
 
 ### PhoneGap and AngularJS
 * http://devgirl.org/2013/06/10/quick-start-guide-phonegap-and-angularjs/
